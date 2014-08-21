@@ -1,0 +1,49 @@
+body{
+    font-family: "helvetica","arial",serif;
+    color: #333333;
+    background-color: #ccc08e;
+    margin:1em 10%;
+}
+
+h1{
+    color: #333333;
+    background-color: transparent;
+}
+
+a{
+    color: #cc860f;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+ul{
+    padding: 0;
+/*    margin:0 0 3em 0;*/
+}
+
+li{
+    float: left;
+    padding: 1em;
+    list-style: none;
+}
+
+img{
+    display: block;
+    clear: both;
+}
+
+#imagegallery{
+    list-style: none;
+}
+#imagegallery li{
+    display: inline;
+}
+
+#imagegallery li a img{
+    border: 0;
+    height: 100px;
+    width: 100px;
+
+    
+} 
